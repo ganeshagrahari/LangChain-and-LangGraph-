@@ -1,1 +1,0 @@
-#Embedding model are use to convert text to vector means : text -> vector(contexual understanding)
