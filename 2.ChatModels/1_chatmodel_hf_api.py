@@ -1,3 +1,4 @@
+#chatmodels are used for generating text means : text -> text
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 import os

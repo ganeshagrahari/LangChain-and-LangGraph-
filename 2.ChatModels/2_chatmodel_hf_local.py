@@ -1,3 +1,5 @@
+#chatmodels are used for generating text means : text -> text
+
 from langchain_huggingface import ChatHuggingFace, HuggingFacePipeline
 
 llm = HuggingFacePipeline.from_model_id(
@@ -12,4 +14,4 @@ llm = HuggingFacePipeline.from_model_id(
 
 model = ChatHuggingFace(llm=llm)
 result = model.invoke("WHat is the capital of India?")
-print(result.content)
+print(result.content) 
