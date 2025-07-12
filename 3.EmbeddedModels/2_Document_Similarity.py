@@ -1,10 +1,16 @@
-from langchain_openai import OpenAIEmbeddings
+from langchain_huggingface import HuggingFaceEmbeddings
 from dotenv import load_dotenv
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+import os
 
 load_dotenv()
-embedding = OpenAIEmbeddings(model='text-embedding-3-large', dimensions=300)
+# Using Hugging Face embeddings instead of OpenAI
+embedding = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2",
+    model_kwargs={'device': 'cpu'},
+    encode_kwargs={'normalize_embeddings': True}
+)
 
 document = [
     "virat kohli is an Indian cricketer known for his aggressive batting and leadership.",
