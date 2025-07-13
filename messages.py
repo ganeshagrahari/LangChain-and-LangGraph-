@@ -1,4 +1,4 @@
-#chatmodels are used for generating text means : text -> text
+from langchain_core.messages import SystemMessage, HumanMessage, AIMessage
 from langchain_huggingface import ChatHuggingFace, HuggingFaceEndpoint
 from dotenv import load_dotenv
 import os
@@ -13,5 +13,7 @@ llm = HuggingFaceEndpoint(
 
 model = ChatHuggingFace(llm=llm)
 
-result = model.invoke("What is the capital of India?")
-print(result.content)
+messages = [
+    SystemMessage(content='You are a helpful assistant'),
+    
+]
