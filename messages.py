@@ -15,5 +15,11 @@ model = ChatHuggingFace(llm=llm)
 
 messages = [
     SystemMessage(content='You are a helpful assistant'),
+    HumanMessage(content='Tell me about LangChain.')
     
 ]
+
+result = model.invoke(messages)
+messages.append(AIMessage(result.content))
+
+print(messages)
