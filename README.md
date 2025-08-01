@@ -21,7 +21,10 @@ A comprehensive collection of **LangChain** examples and implementations coverin
 - **🔍 Embedding Models**: Document similarity and semantic search
 - **📝 Dynamic Prompts**: Template-based prompt generation
 - **🎯 Message Handling**: Proper conversation flow with SystemMessage, HumanMessage, AIMessage
-- **📚 Learning Examples**: Step-by-step implementations for beginners
+- **� Structured Output**: Type-safe responses with TypedDict and Pydantic
+- **🔧 API Testing**: Built-in tools to verify API keys and connections
+- **🛠️ Error Handling**: Robust error management and fallback strategies
+- **�📚 Learning Examples**: Step-by-step implementations for beginners
 
 ## 📁 Project Structure
 
@@ -39,12 +42,19 @@ LangChain-Framework/
 │   └── 4_openAi_embedding_docs.py      # OpenAI document embeddings
 ├── 📂 4.Prompt/                  # Prompt engineering examples
 │   ├── Prompt_generator.py       # Dynamic prompt generation
-│   └── prompt_ui.py             # UI for prompt creation
+│   ├── prompt_ui.py             # UI for prompt creation
+│   ├── chat_prompt_template.py  # Chat prompt templates
+│   ├── message_placeholdder.py  # Message placeholders
+│   ├── messages.py             # Message handling examples
+│   └── chat_history.txt        # Sample conversation data
+├── � 5.Structured_Output_Langchain/ # Structured output examples
+│   ├── typeddict_demp.py        # TypedDict demonstration
+│   └── with_structured_output_typedict.py # Structured output with TypedDict
 ├── 📄 chatbot.py                # Full-featured chatbot with conversation history
-├── 📄 chat_prompt_template.py   # Dynamic prompt templates
-├── 📄 message_placeholdder.py   # Message placeholder demonstrations
-├── 📄 messages.py               # Message handling examples
-├── 📄 chat_history.txt          # Sample conversation data
+├── 📄 structured_output_alternative.py # Alternative structured output for HF models
+├── 📄 structured_output_openai.py      # OpenAI structured output example
+├── 📄 with_structured_output_typedict.py # Main structured output example
+├── 📄 test_openai_api.py        # OpenAI API key verification tool
 ├── 📄 requirements.txt          # Python dependencies
 └── 📄 template.json            # Configuration templates
 ```
@@ -115,7 +125,25 @@ python 3.EmbeddedModels/2_Document_Similarity.py
 ### Dynamic Prompt Templates
 ```python
 # Create dynamic prompts
-python chat_prompt_template.py
+python 4.Prompt/chat_prompt_template.py
+```
+
+### Structured Output Examples
+```python
+# OpenAI structured output (recommended)
+python structured_output_openai.py
+
+# Alternative approach for Hugging Face models
+python structured_output_alternative.py
+
+# TypedDict demonstration
+python 5.Structured_Output_Langchain/typeddict_demp.py
+```
+
+### API Key Verification
+```python
+# Test your OpenAI API key
+python test_openai_api.py
 ```
 
 ## 🧩 Components Overview
@@ -145,6 +173,12 @@ python chat_prompt_template.py
 - **Error Handling**: Robust error management
 - **User Experience**: Interactive command-line interface
 
+### 6. 📊 Structured Output
+- **TypedDict Support**: Type-safe data structures
+- **Multiple Approaches**: OpenAI native vs. prompt-engineering fallbacks
+- **JSON Parsing**: Robust extraction from model responses
+- **Error Recovery**: Fallback strategies for parsing failures
+
 ## 🔑 API Keys Required
 
 | Service | Required For | How to Get |
@@ -160,8 +194,10 @@ python chat_prompt_template.py
 2. **Model Integration**: Working with different LLM providers
 3. **Prompt Engineering**: Creating effective prompts for better outputs
 4. **Memory Management**: Implementing conversation memory
-5. **Error Handling**: Building robust AI applications
-6. **Production Ready**: Best practices for deployment
+5. **Structured Output**: Type-safe responses and data extraction
+6. **Error Handling**: Building robust AI applications
+7. **API Management**: Testing and verifying API connections
+8. **Production Ready**: Best practices for deployment
 
 ## 📊 Supported Models
 
