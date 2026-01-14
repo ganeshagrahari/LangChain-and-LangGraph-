@@ -1,0 +1,450 @@
+{
+  "userId": "user_12345_mock_id",
+  "title": "Uploaded Resume Draft",
+  "personal": {
+    "fullName": "Ganesh Agrahari",
+    "email": "ganeshagrahari08@gmail.com",
+    "phone": "+91 9044232872",
+    "city": "Lucknow, India",
+    "linkedin": "",
+    "github": "",
+    "summary": "",
+    "imgUrl": ""
+  },
+  "educations": [
+    {
+      "id": "e6f86a6d-8b55-4a2f-ad5a-43e0be5e0e29",
+      "eduDocId": "f9af1c3c-dced-4d26-ac3f-5cf73b32a945",
+      "level": "Undergraduate",
+      "boardNameOrDegree": "BCA Data Science & Artificial Intelligence",
+      "institutionName": "BBD University",
+      "gpa": "8",
+      "duration": {
+        "from": "2023-08",
+        "to": "2026-09"
+      },
+      "selfAttested": true,
+      "docUri": null,
+      "issuerEmailId": "",
+      "isEmailSend": false,
+      "verified": false,
+      "status": "pending"
+    },
+    {
+      "id": "3a4efcf9-201d-48da-ba11-dbea5fd04c3d",
+      "eduDocId": "aa321d64-cfa0-4f6b-ae50-23fd3a0c7a94",
+      "level": "Grade 12",
+      "boardNameOrDegree": "Intermediate(PCM)",
+      "institutionName": "SVM Inter College Ntpc",
+      "gpa": "82%",
+      "duration": {
+        "from": "2022",
+        "to": "2022"
+      },
+      "selfAttested": true,
+      "docUri": null,
+      "issuerEmailId": "",
+      "isEmailSend": false,
+      "verified": false,
+      "status": "pending"
+    }
+  ],
+  "experiences": [
+    {
+      "id": "c2f2b750-0c94-472f-ae0d-ebf9aabc5adc",
+      "companyName": "Edubuk",
+      "jobRole": "AI Engineer Intern",
+      "duration": {
+        "from": "2025-08",
+        "to": "Present"
+      },
+      "skills": "Azure, OpenAI, Elasticsearch",
+      "description": "- Built an AI-powered JD\u2013CV matching system combining vector similarity for accuracy and LLM-based analysis for contextual understanding, enabling high-precision candidate\u2013job matching at scale.\n- Designed and deployed a serverless architecture on Azure using Azure Functions, including migration from an earlier AWS Lambda\u2013based serverless setup, ensuring improved scalability and operational consistency.\n- Implemented a Retrieval-Augmented pipeline using OpenAI text-embedding-3-large for semantic embeddings and GPT-4 for deep context evaluation between job descriptions and resumes.\n- Migrated the search infrastructure from AWS OpenSearch to self-hosted Elasticsearch on Azure Virtual Machines, improving system control, flexibility, and long-term cost efficiency.\n- Engineered backend services for resume ingestion, JD processing, and matching orchestration, delivering fast, reliable responses suitable for production-grade hiring workflows.",
+      "selfAttested": true,
+      "isEmailSend": false,
+      "docUri": null,
+      "issuerEmailId": "",
+      "verified": false,
+      "status": "pending"
+    },
+    {
+      "id": "e127041c-6dfd-4622-91e5-c2424ff6f847",
+      "companyName": "QTechSolutions",
+      "jobRole": "AI/GenAi Intern",
+      "duration": {
+        "from": "2023-03",
+        "to": "2025-08"
+      },
+      "skills": "NLP, machine learning",
+      "description": "- Working on a real-world healthcare site to develop and integrate an AI-powered chatbot for doctor consultations, medicine delivery, and prescription recommendations.\n- Implementing NLP and machine learning techniques to enhance chatbot accuracy, ensuring seamless and efficient user interactions in a scalable AI-driven system.\n- Leveraging Retrieval-Augmented Generation (RAG) to provide dynamic, context-aware responses by combining LLM capabilities with real-time retrieval from healthcare databases.",
+      "selfAttested": true,
+      "isEmailSend": false,
+      "docUri": null,
+      "issuerEmailId": "",
+      "verified": false,
+      "status": "pending"
+    },
+    {
+      "id": "49e58069-63ec-48a5-b042-2fc1f86637dd",
+      "companyName": "Unified Mentor",
+      "jobRole": "Data Science Intern",
+      "duration": {
+        "from": "2024-11",
+        "to": "2025-01"
+      },
+      "skills": "NLP, sentiment analysis, topic modeling",
+      "description": "- Implemented a text classification pipeline, improving document categorization accuracy by 20%\n- Developed an NLP-based climate change analysis system using sentiment analysis and topic modeling to extract insights from global news articles.",
+      "selfAttested": true,
+      "isEmailSend": false,
+      "docUri": null,
+      "issuerEmailId": "",
+      "verified": false,
+      "status": "pending"
+    }
+  ],
+  "skills": [
+    {
+      "id": "77d1fb8a-4c24-4826-b364-453ce1e436eb",
+      "skillName": "Python",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "cb580814-b859-48cb-a465-1a3f0282f15a",
+      "skillName": "JavaScript",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "c8275362-8925-4452-975c-45096d7913c3",
+      "skillName": "Async Programming",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "5d6f3946-5782-4648-8c42-6140033938bb",
+      "skillName": "REST API Development",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "74a66a7f-0870-4555-b40b-be137a2d6c58",
+      "skillName": "Machine Learning",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "bf8a486a-af2b-4b98-a4e6-eff40fb766eb",
+      "skillName": "Deep Learning",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "d2b25d3d-c3fa-43b2-a87e-bb1bb2f80a5a",
+      "skillName": "NLP",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "f0e1f248-8251-447e-aef0-127effd6dde8",
+      "skillName": "LLMs",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "ee2c1e57-8cdd-4bf1-9ca3-ea1d444bba31",
+      "skillName": "RAG",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "e1f14ee2-1ffb-4f6d-917c-04027cd7a33f",
+      "skillName": "Vector Search (Elasticsearch)",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "c763ef73-b7a7-43cc-a1cd-39eb4b6e3b80",
+      "skillName": "Multi-Vector Embeddings (3072-dim)",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "88a5efad-962b-4809-8e42-2d72a7a8620c",
+      "skillName": "Hybrid Scoring (GPT-4 + vector similarity)",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "92cfebf7-563d-401c-8271-4516f6309a6d",
+      "skillName": "Prompt Engineering",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "4727aa21-ba26-4e33-8fac-dcd0441ddfcb",
+      "skillName": "PyTorch",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "ea4218f7-7fa0-4280-80a3-7b667e7eed7a",
+      "skillName": "LangChain",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "3e716bc8-ce04-47ac-9853-908e8eb0d78c",
+      "skillName": "LangGraph",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "9e2f6522-3b6f-4b0a-be0e-1b158825dc68",
+      "skillName": "Scikit-learn",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "cf2d0491-36f7-43fa-acd6-e874a064ce6c",
+      "skillName": "OpenCV",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "fcbdf772-fe55-4913-a7b4-8f2bd9112419",
+      "skillName": "N8N",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "993d8670-6cf9-4d3d-a118-55467fa1cb46",
+      "skillName": "Azure",
+      "level": "Expert",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "37fdec19-043d-47aa-afa5-e6aee2f37f84",
+      "skillName": "AWS",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "f69dcb42-dc61-4e03-82a0-d8844476503e",
+      "skillName": "Microservices",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "5cf7cb8d-1d84-4b77-8f5e-aa5bb23b2f0d",
+      "skillName": "Serverless Architecture",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "b13cc52f-6ba8-456f-aafe-80079a14fc8c",
+      "skillName": "Async Pipelines",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "0ec65673-40d6-4ea2-a2ef-1047a80d8249",
+      "skillName": "CI/CD",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "88c1c844-6f0f-4f88-9500-4a493bf86101",
+      "skillName": "Git",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "3742d635-4fdc-4d47-a5d1-a85a9b3bcabe",
+      "skillName": "GitHub",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "fa9c7b93-48af-49b2-834a-a3df97d93101",
+      "skillName": "Data Processing",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "cc4cc245-fe2f-4639-bfed-1493eeb52766",
+      "skillName": "ETL",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "6ea574c6-5a36-4975-84df-4734105e696d",
+      "skillName": "Feature Engineering",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "c78bd461-a7e5-45b3-99a2-42f9100f428b",
+      "skillName": "Power BI",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "4168805c-a2d6-4c6b-b3ad-657fdd7703b7",
+      "skillName": "Jupyter Notebook",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "6bc30908-eed2-48b6-9d93-d9d807ee628c",
+      "skillName": "Matplotlib",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "b78f9a2d-9c8e-4094-8455-c453e3f45180",
+      "skillName": "Seaborn",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "01fbb22e-28ad-44d6-afaa-c9faedcfe964",
+      "skillName": "SQL",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "12aa54f1-9438-4a2e-9466-835e24c0cf24",
+      "skillName": "Elasticsearch (vector + keyword fields)",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "5608f924-3b96-4523-9a5b-67f2140847af",
+      "skillName": "AWS S3",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    },
+    {
+      "id": "22e46920-f8e8-4b30-8f1d-c27d51a8ab37",
+      "skillName": "Azure Blob Storage",
+      "level": "Intermediate",
+      "selfAttested": true,
+      "endoresBy": "",
+      "endoresThrough": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "a2bb749b-bdd1-450d-9231-cd23a0e10bc4",
+      "projectName": "AI Recruitment System",
+      "projectUrl": "https://edubuk.com/trujobs",
+      "duration": {
+        "from": "",
+        "to": ""
+      },
+      "skills": "AI, OpenAI, Elasticsearch",
+      "description": "Designed an AI-driven JD\u2013CV matching workflow that evaluates both semantic similarity and contextual relevance, improving hiring signal quality beyond keyword-based matching.",
+      "selfAttested": true
+    },
+    {
+      "id": "1942a296-6c6d-48a0-8de2-1c494670a05b",
+      "projectName": "Face Recognition Attendance System",
+      "projectUrl": "",
+      "duration": {
+        "from": "",
+        "to": ""
+      },
+      "skills": "Python, OpenCV, CNN",
+      "description": "Designed and deployed a real-time face recognition attendance system using Python, OpenCV, and CNN, achieving 95%+ accuracy and reducing manual attendance tracking efforts by over 40%.",
+      "selfAttested": true
+    },
+    {
+      "id": "71aaec6f-7bb2-4d4d-b97e-1e8f2d513cba",
+      "projectName": "Next.js Portfolio site",
+      "projectUrl": "https://vercel.com/nextjs-portfolio",
+      "duration": {
+        "from": "",
+        "to": ""
+      },
+      "skills": "Next.js, Vercel",
+      "description": "Interactive Portfolio Website - Built using Next.js and deployed on Vercel, featuring a responsive design and an AI-powered chatbot for seamless user interaction.",
+      "selfAttested": true
+    }
+  ],
+  "awards": []
+}
