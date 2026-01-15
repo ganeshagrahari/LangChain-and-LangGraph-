@@ -1,5 +1,5 @@
 {
-  "userId": "user_12345_mock_id",
+  "userId": "pending_user_assignment",
   "title": "Uploaded Resume Draft",
   "personal": {
     "fullName": "Ganesh Agrahari",
@@ -13,8 +13,8 @@
   },
   "educations": [
     {
-      "id": "f5d6357b-4d49-45cb-9321-6a3742d60dca",
-      "eduDocId": "8f570f29-2081-49fd-b958-bbe6d6f132c8",
+      "id": "temp_79cc51bc-68a0-46f9-ae7d-923ce89684ef",
+      "eduDocId": "",
       "level": "Undergraduate",
       "boardNameOrDegree": "BCA Data Science & Artificial Intelligence",
       "institutionName": "BBD University",
@@ -31,8 +31,8 @@
       "status": "pending"
     },
     {
-      "id": "47e58889-7da6-4548-b233-9ca8305f032e",
-      "eduDocId": "d1e57412-a595-4fd9-b650-284bc482b9b2",
+      "id": "temp_47431e31-f8fb-4fcd-9345-fb2c5abd55fd",
+      "eduDocId": "",
       "level": "Grade 12",
       "boardNameOrDegree": "Intermediate(PCM)",
       "institutionName": "SVM Inter College Ntpc",
@@ -51,15 +51,15 @@
   ],
   "experiences": [
     {
-      "id": "08f144a1-bd19-4a68-a4ad-13b0c23953b0",
+      "id": "temp_f6d5d13b-c95a-464f-8d86-4b113d5a75a8",
       "companyName": "Edubuk",
       "jobRole": "AI Engineer Intern",
       "duration": {
         "from": "2025-08",
         "to": "Present"
       },
-      "skills": "Azure, AWS, OpenAI, Elasticsearch",
-      "description": "Built an AI-powered JD\u2013CV matching system combining vector similarity for accuracy and LLM-based analysis for contextual understanding, enabling high-precision candidate\u2013job matching at scale. Designed and deployed a serverless architecture on Azure using Azure Functions, including migration from an earlier AWS Lambda\u2013based serverless setup, ensuring improved scalability and operational consistency. Implemented a Retrieval-Augmented pipeline using OpenAI text-embedding-3-large for semantic embeddings and GPT-4 for deep contextual evaluation between job descriptions and resumes. Migrated the search infrastructure from AWS OpenSearch to self-hosted Elasticsearch on Azure Virtual Machines, improving system control, flexibility, and long-term cost efficiency. Engineered backend services for resume ingestion, JD processing, and matching orchestration, delivering fast, reliable responses suitable for production-grade hiring workflows.",
+      "skills": "Azure, Azure Functions, AWS Lambda, OpenAI, Elasticsearch, GPT-4",
+      "description": "\u2022Built an AI-powered JD\u2013CV matching system combining vector similarity for accuracy and LLM-based analysis for contextual understanding, enabling high-precision candidate\u2013job matching at scale.\n\u2022Designed and deployed a serverless architecture on Azure using Azure Functions, including migration from an earlier AWS Lambda\u2013based serverless setup, ensuring improved scalability and operational consistency.\n\u2022Implemented a Retrieval-Augmented pipeline using OpenAI text-embedding-3-large for semantic embeddings and GPT-4 for deep contextual evaluation between job descriptions and resumes.\n\u2022Migrated the search infrastructure from AWS OpenSearch to self-hosted Elasticsearch on Azure Virtual Machines, improving system control, flexibility, and long-term cost efficiency.\n\u2022Engineered backend services for resume ingestion, JD processing, and matching orchestration, delivering fast, reliable responses suitable for production-grade hiring workflows.",
       "selfAttested": true,
       "isEmailSend": false,
       "docUri": null,
@@ -68,15 +68,15 @@
       "status": "pending"
     },
     {
-      "id": "536f5f8e-7c10-49a4-ae67-d37a11b00381",
+      "id": "temp_41c8fcd9-1e71-4861-8133-d2ed35135dd6",
       "companyName": "QTechSolutions",
       "jobRole": "AI/GenAi Intern",
       "duration": {
         "from": "2025-03",
         "to": "2025-08"
       },
-      "skills": "NLP, machine learning",
-      "description": "Working on a real-world healthcare site to develop and integrate an AI-powered chatbot for doctor consultations, medicine delivery, and prescription recommendations. Implementing NLP and machine learning techniques to enhance chatbot accuracy, ensuring seamless and efficient user interactions in a scalable AI-driven system. Leveraging Retrieval-Augmented Generation (RAG) to provide dynamic, context-aware responses by combining LLM capabilities with real-time retrieval from healthcare databases.",
+      "skills": "NLP, machine learning, LLM, healthcare databases",
+      "description": "\u2022Working on a real-world healthcare site to develop and integrate an AI-powered chatbot for doctor consultations, medicine delivery, and prescription recommendations.\n\u2022Implementing NLP and machine learning techniques to enhance chatbot accuracy, ensuring seamless and efficient user interactions in a scalable AI-driven system.\n\u2022Leveraging Retrieval-Augmented Generation (RAG) to provide dynamic, context-aware responses by combining LLM capabilities with real-time retrieval from healthcare databases.",
       "selfAttested": true,
       "isEmailSend": false,
       "docUri": null,
@@ -85,15 +85,15 @@
       "status": "pending"
     },
     {
-      "id": "36cb71d3-8288-47f3-a6f0-1a3b46e298b7",
+      "id": "temp_32dd8d1a-1bc6-463d-a5ef-97d51a06b933",
       "companyName": "Unified Mentor",
       "jobRole": "Data Science Intern",
       "duration": {
         "from": "2024-11",
         "to": "2025-01"
       },
-      "skills": "NLP, sentiment analysis, topic modeling",
-      "description": "Implemented a text classification pipeline, improving document categorization accuracy by 20%. Developed an NLP-based climate change analysis system using sentiment analysis and topic modeling to extract insights from global news articles.",
+      "skills": "text classification, NLP, sentiment analysis, topic modeling",
+      "description": "\u2022Implemented a text classification pipeline, improving document categorization accuracy by 20%\n\u2022Developed an NLP-based climate change analysis system using sentiment analysis and topic modeling to extract insights from global news articles.",
       "selfAttested": true,
       "isEmailSend": false,
       "docUri": null,
@@ -104,7 +104,7 @@
   ],
   "skills": [
     {
-      "id": "dc106be1-70f0-4c17-acd9-4c1e499afd14",
+      "id": "temp_f969e8a3-32cd-4beb-8596-18658dc1bebb",
       "skillName": "Python",
       "level": "Intermediate",
       "selfAttested": true,
@@ -112,7 +112,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "e69aae1e-0a00-4d51-94ac-e1857cf08813",
+      "id": "temp_e057c886-4011-460a-b347-03af09ae68b0",
       "skillName": "JavaScript",
       "level": "Intermediate",
       "selfAttested": true,
@@ -120,7 +120,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "642751c9-b254-4aad-8965-78a37b2a2209",
+      "id": "temp_dc410499-c17a-4106-9834-44e08ea43f53",
       "skillName": "Async Programming",
       "level": "Intermediate",
       "selfAttested": true,
@@ -128,7 +128,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "c10b2ad6-7675-4ac9-8b58-c145637807c6",
+      "id": "temp_33dcd2c6-1e1e-4141-b862-513b53c39d29",
       "skillName": "REST API Development",
       "level": "Intermediate",
       "selfAttested": true,
@@ -136,7 +136,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "a0d2344f-0ebd-4b5b-b04b-c59e068ed537",
+      "id": "temp_47a086d1-fef9-43b4-adc5-7fbc7a306002",
       "skillName": "Machine Learning",
       "level": "Expert",
       "selfAttested": true,
@@ -144,7 +144,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "336ff764-c8c0-4b17-9ea2-9ea66787f606",
+      "id": "temp_e2c65d91-85ac-48dc-bff6-9efcc8cee168",
       "skillName": "Deep Learning",
       "level": "Expert",
       "selfAttested": true,
@@ -152,7 +152,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "d0c0d06e-94bd-42d6-8240-cf7f06b30031",
+      "id": "temp_47f8570a-0aa0-4500-b23e-7ced16bb2646",
       "skillName": "NLP",
       "level": "Expert",
       "selfAttested": true,
@@ -160,7 +160,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "73e8e5ad-bf44-48f1-82c7-80d151a6b1f3",
+      "id": "temp_8e4a56a7-86b7-462c-8769-716495de714a",
       "skillName": "LLMs",
       "level": "Expert",
       "selfAttested": true,
@@ -168,7 +168,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "2cb190ad-31be-4495-870d-6feb88bee21b",
+      "id": "temp_ab588db2-3688-4ac3-828d-f3d2d0c99d09",
       "skillName": "RAG",
       "level": "Expert",
       "selfAttested": true,
@@ -176,7 +176,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "69d5caac-53aa-4e38-9a98-8b222e71cfba",
+      "id": "temp_f289e972-7a1b-4a87-a1c9-adeba0e77e56",
       "skillName": "Vector Search (Elasticsearch)",
       "level": "Intermediate",
       "selfAttested": true,
@@ -184,7 +184,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "ccc50c45-09aa-467a-9ad8-29f9fd1175d3",
+      "id": "temp_c2127042-c501-4ec3-bbca-f49001bed5ed",
       "skillName": "Multi-Vector Embeddings",
       "level": "Intermediate",
       "selfAttested": true,
@@ -192,23 +192,23 @@
       "endoresThrough": ""
     },
     {
-      "id": "9976bc5a-61d5-4dee-b52e-64bc8a5654b4",
-      "skillName": "Hybrid Scoring (GPT-4 + vector similarity)",
-      "level": "Expert",
+      "id": "temp_96fae2a6-52de-4572-89c7-9972856b1e9e",
+      "skillName": "Hybrid Scoring",
+      "level": "Intermediate",
       "selfAttested": true,
       "endoresBy": "",
       "endoresThrough": ""
     },
     {
-      "id": "105d2234-0edc-4fab-9bd6-422e85f8016b",
+      "id": "temp_b6ecbf58-0f18-49a2-939b-63a2fc238383",
       "skillName": "Prompt Engineering",
-      "level": "Expert",
+      "level": "Intermediate",
       "selfAttested": true,
       "endoresBy": "",
       "endoresThrough": ""
     },
     {
-      "id": "40e4f14c-9fe3-49bb-8233-7cdb1628775a",
+      "id": "temp_9402644a-a907-477e-928f-2c6a22163cd3",
       "skillName": "PyTorch",
       "level": "Intermediate",
       "selfAttested": true,
@@ -216,7 +216,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "94ab645e-aec9-482f-b759-255272902251",
+      "id": "temp_6899c19c-42e9-4d7f-a673-5fe6abbdb7eb",
       "skillName": "LangChain",
       "level": "Intermediate",
       "selfAttested": true,
@@ -224,7 +224,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "2133b579-e7dc-4c5c-82bb-e35cd12a5418",
+      "id": "temp_a1a9e4f1-c4cf-480f-9cc1-ac08717fc707",
       "skillName": "LangGraph",
       "level": "Intermediate",
       "selfAttested": true,
@@ -232,7 +232,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "3c7b6b4f-1a71-46cb-9f31-4c5f2032fc21",
+      "id": "temp_c39253d1-2af6-46e7-b15a-b97958705665",
       "skillName": "Scikit-learn",
       "level": "Intermediate",
       "selfAttested": true,
@@ -240,7 +240,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "a1d7ac0c-5454-4f03-bba9-8c3c4e700b72",
+      "id": "temp_70c9935f-2ef5-42aa-a677-8358f3e91b35",
       "skillName": "OpenCV",
       "level": "Intermediate",
       "selfAttested": true,
@@ -248,7 +248,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "de50f394-3b0c-4b13-8166-e4371dcc9fb5",
+      "id": "temp_abd79c3c-3990-45b7-a158-3e1cab0b8918",
       "skillName": "N8N",
       "level": "Intermediate",
       "selfAttested": true,
@@ -256,7 +256,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "b7ceef1a-4bdd-4c0a-acbc-2f643b1a7f46",
+      "id": "temp_37f61bba-204e-4975-bf72-3da970d8a640",
       "skillName": "Azure",
       "level": "Expert",
       "selfAttested": true,
@@ -264,7 +264,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "175edcbb-be9f-4000-8453-5d03bc53ff44",
+      "id": "temp_09973115-ce23-4ce3-a4ad-1ecf2c03dcb6",
       "skillName": "AWS",
       "level": "Intermediate",
       "selfAttested": true,
@@ -272,7 +272,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "da597efa-843f-4ccf-8a6d-5d44a31a74d4",
+      "id": "temp_f691d333-f20c-42ea-98e3-425e54cb02b9",
       "skillName": "Microservices",
       "level": "Intermediate",
       "selfAttested": true,
@@ -280,7 +280,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "6cb78667-8320-471c-9d15-cbf03b421337",
+      "id": "temp_089f569e-edd0-4070-a711-efb9a096abe5",
       "skillName": "Serverless Architecture",
       "level": "Intermediate",
       "selfAttested": true,
@@ -288,7 +288,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "925ee8a2-7238-45d6-ae66-0c464d1078ed",
+      "id": "temp_38316757-f4f8-4a79-b836-5a204f8ec4ef",
       "skillName": "Async Pipelines",
       "level": "Intermediate",
       "selfAttested": true,
@@ -296,7 +296,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "f1f66cac-dade-443d-b5e3-774f17c2d9b3",
+      "id": "temp_f8c26fec-31ba-4d1e-a531-adec4d59a163",
       "skillName": "CI/CD",
       "level": "Intermediate",
       "selfAttested": true,
@@ -304,7 +304,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "b5a8805b-33d8-4579-9c1f-2eced56180f2",
+      "id": "temp_fb58a007-1759-48cd-ae3d-c792aa0394b4",
       "skillName": "Git",
       "level": "Intermediate",
       "selfAttested": true,
@@ -312,7 +312,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "e8e8021f-2af0-4c1f-942c-5e92fbd8b2d6",
+      "id": "temp_e97f024b-aada-42c6-8cc3-0630afae14c4",
       "skillName": "GitHub",
       "level": "Intermediate",
       "selfAttested": true,
@@ -320,7 +320,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "861cf896-5228-449b-9789-876938b16700",
+      "id": "temp_9b7eb921-056c-4cad-a90b-247b5133907a",
       "skillName": "Data Processing",
       "level": "Intermediate",
       "selfAttested": true,
@@ -328,7 +328,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "73630557-a2b9-47fc-b683-86baed46b1ae",
+      "id": "temp_7fb6c457-5db9-4f0f-af4b-6771175635b3",
       "skillName": "ETL",
       "level": "Intermediate",
       "selfAttested": true,
@@ -336,7 +336,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "f7dfcf23-ee55-4d79-af3d-52469b7ec237",
+      "id": "temp_684b420e-4bcd-42bd-a4b9-baac3c709012",
       "skillName": "Feature Engineering",
       "level": "Intermediate",
       "selfAttested": true,
@@ -344,7 +344,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "40affbb8-d463-4b2e-9a4b-ef31af1b825f",
+      "id": "temp_b08236a2-b66f-47e0-9792-71a231c66487",
       "skillName": "Power BI",
       "level": "Intermediate",
       "selfAttested": true,
@@ -352,7 +352,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "78f62c52-0794-4195-be80-25ee78ec7fc8",
+      "id": "temp_1d7662bb-1d7e-4905-bb6e-bc5bc7ec795d",
       "skillName": "Jupyter Notebook",
       "level": "Intermediate",
       "selfAttested": true,
@@ -360,7 +360,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "2f5363a3-bfe0-4c81-adc2-1cc4d451798a",
+      "id": "temp_3892d845-756d-41ad-a9c9-4d9dbcfb671e",
       "skillName": "Matplotlib",
       "level": "Intermediate",
       "selfAttested": true,
@@ -368,7 +368,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "14eff5c7-7cb9-41ae-b116-01d973cc939e",
+      "id": "temp_652c63fc-9f9e-41d7-af43-781e3cedc442",
       "skillName": "Seaborn",
       "level": "Intermediate",
       "selfAttested": true,
@@ -376,7 +376,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "fc10f95a-8540-4856-b9f9-98c3bd3dc58e",
+      "id": "temp_9d895bb0-11e1-4cfb-afef-6ef4e8ffa327",
       "skillName": "SQL",
       "level": "Intermediate",
       "selfAttested": true,
@@ -384,15 +384,15 @@
       "endoresThrough": ""
     },
     {
-      "id": "891ea470-0991-4b73-8220-e7076ff1cbda",
-      "skillName": "Elasticsearch (vector + keyword fields)",
+      "id": "temp_54393f5b-d388-49a9-a5d5-aecf81a71437",
+      "skillName": "Elasticsearch",
       "level": "Intermediate",
       "selfAttested": true,
       "endoresBy": "",
       "endoresThrough": ""
     },
     {
-      "id": "beabd153-3e20-4476-8706-36940edc79d2",
+      "id": "temp_3cdb253f-1457-435c-8dbc-cf46f4331943",
       "skillName": "AWS S3",
       "level": "Intermediate",
       "selfAttested": true,
@@ -400,7 +400,7 @@
       "endoresThrough": ""
     },
     {
-      "id": "7a2b8e10-4135-4f5e-be67-de9470e35d53",
+      "id": "temp_797f4260-fe96-4681-a24a-6fb0539a3244",
       "skillName": "Azure Blob Storage",
       "level": "Intermediate",
       "selfAttested": true,
@@ -410,19 +410,19 @@
   ],
   "projects": [
     {
-      "id": "7c1f31a0-685f-401d-8d73-b4b0d0966334",
+      "id": "temp_354e7885-59cd-401e-ad59-83c196b1022b",
       "projectName": "TruJobs \u2013 AI Recruitment System",
       "projectUrl": "",
       "duration": {
         "from": "",
         "to": ""
       },
-      "skills": "AI, OpenAI, Elasticsearch",
+      "skills": "AI, JD-CV matching, OpenAI, GPT-4, Elasticsearch",
       "description": "Designed an AI-driven JD\u2013CV matching workflow that evaluates both semantic similarity and contextual relevance, improving hiring signal quality beyond keyword-based matching. Implemented an embedding-based retrieval layer using OpenAI text-embedding-3-large, enabling accurate semantic comparison between resumes and job descriptions. Integrated GPT-4 to perform contextual analysis and reasoning over retrieved candidates, enhancing match quality for complex and non-obvious skill relationships. Built event-driven APIs for resume ingestion, JD uploads, and match retrieval, optimized for high-throughput processing in a production environment. Enabled real-time schema flexibility and fast search operations using self-hosted Elasticsearch, supporting continuous data evolution without service disruption.",
       "selfAttested": true
     },
     {
-      "id": "985f1352-2f07-4e67-9a30-7d498f6d3a86",
+      "id": "temp_a2828fc4-edd3-4f99-8916-810d781e3a22",
       "projectName": "Face Recognition Attendance System",
       "projectUrl": "",
       "duration": {
@@ -434,7 +434,7 @@
       "selfAttested": true
     },
     {
-      "id": "5b45663d-6566-4745-8598-b4057828f0ce",
+      "id": "temp_907745fd-8a68-434d-ad51-f79fc375c9d2",
       "projectName": "Nextjs Portfolio site",
       "projectUrl": "https://vercel.com",
       "duration": {
@@ -448,7 +448,7 @@
   ],
   "awards": [
     {
-      "id": "88f426f6-a6d2-4cbf-baa7-c27d6991907b",
+      "id": "temp_75513e6a-bb35-4f42-9335-6993b93f91bf",
       "level": "International",
       "name": "Data Science Level 1",
       "organisation": "IBM",
@@ -465,7 +465,7 @@
       "status": "pending"
     },
     {
-      "id": "07f5149a-4548-438f-baa3-ed5988424620",
+      "id": "temp_fb81622b-dd3e-49d7-bd93-d40dae85ec89",
       "level": "International",
       "name": "Analytics in IBM Cognos",
       "organisation": "IBM",
@@ -482,7 +482,7 @@
       "status": "pending"
     },
     {
-      "id": "9f398f91-5683-47f7-a030-97a48d8cbc62",
+      "id": "temp_3e2953e1-5868-4869-8ae2-e1662e2f5da5",
       "level": "International",
       "name": "Machine Learning",
       "organisation": "Udemy",
@@ -499,7 +499,7 @@
       "status": "pending"
     },
     {
-      "id": "82a0c045-d374-4243-a54a-521f71ec3ddf",
+      "id": "temp_f0e2a52f-b614-4aa4-8cdc-49c131639023",
       "level": "International",
       "name": "Cyber Security",
       "organisation": "Microsoft",
@@ -516,7 +516,7 @@
       "status": "pending"
     },
     {
-      "id": "b5c41336-7c01-4919-a07a-4e1aa4733dbc",
+      "id": "temp_3452565b-5d76-4bd0-8511-2fe72c8a6a14",
       "level": "International",
       "name": "App Development",
       "organisation": "BBDU",
@@ -533,7 +533,7 @@
       "status": "pending"
     },
     {
-      "id": "b019a54f-66d7-4e85-ba72-48996da27c70",
+      "id": "temp_3664fe21-0b61-42ce-b457-70089f3df2de",
       "level": "International",
       "name": "NoSql & DbaaS 101",
       "organisation": "IBM",
@@ -550,7 +550,7 @@
       "status": "pending"
     },
     {
-      "id": "4e20f8da-ba35-42e8-b403-c2910673f4d9",
+      "id": "temp_8fd31ec4-96c9-4756-b821-13cc7a4fdf56",
       "level": "International",
       "name": "Data Science 101",
       "organisation": "IBM",
@@ -567,7 +567,7 @@
       "status": "pending"
     },
     {
-      "id": "b7d4a8e1-de78-4d83-b169-667610966f54",
+      "id": "temp_7ae2787b-6a3a-473c-a586-d7da51334031",
       "level": "International",
       "name": "Predictive Modeling Fundamentals I",
       "organisation": "IBM",
@@ -584,7 +584,7 @@
       "status": "pending"
     },
     {
-      "id": "78ebaf40-3415-4e17-ab15-d70531044079",
+      "id": "temp_f09f594f-048e-4a01-bb55-9c82fb857f0d",
       "level": "International",
       "name": "Python 101 for Data Science",
       "organisation": "IBM",
